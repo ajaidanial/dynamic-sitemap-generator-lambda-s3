@@ -1,5 +1,8 @@
 {
   "domain": "https://www.macheye.com/",
   "debug": false,
-  "output": "sitemap.xml"
+  "output": "sitemap.xml",
+  "s3_bucket_name": "",
+  "aws_access_key": "",
+  "aws_secret_key": "",
 }
