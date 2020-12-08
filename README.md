@@ -14,7 +14,7 @@ This repo helps you by automating the process.
 The app is configured in a way to be deployed using AWS lambda. Just push the app and create an
 AWS lambda function. Add a trigger to the function saying this has to be called when a new HTML file
 is to be uploaded in the bucket. This functions does the rest. Remember to add the trigger only for
-.html files or it might cause a recursive loop.
+.html files or it might cause a recursive loop. The logs can be viewed using Cloudwatch.
 
 ## Other Links
 1. [python-sitemap](https://github.com/c4software/python-sitemap)
